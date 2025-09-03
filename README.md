@@ -78,7 +78,7 @@ graph TD;
     E --> F["Off-Design Phase:<br/>Fix Geometry"];
     F --> G["Iterate Conditions:<br/>Altitude, Mach, Tt4"];
     G --> H["Generate Operating Lines<br/>& Plots"];
-    H --> I["Output:<br/>Thrust vs Altitude, SFC vs Thrust"];
+    H --> I["Output:<br/>Thrust vs Altitude, <br/>SFC vs Thrust"];
     I --> J["Optimize for Efficiency"];
 
 ```
