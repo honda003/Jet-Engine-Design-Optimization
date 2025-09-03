@@ -50,6 +50,22 @@ This project was developed as an **Aerospace Engineering Capstone (Jan 2023)**, 
 
 ---
 
+## 📷 **Visual Results**  
+
+### Design Phase Carpet Plot
+![Design Carpet Plot](carpet_plot_design.png)  
+*Specific fuel consumption vs. specific thrust for varying pressure ratios and TIT.*
+
+### Off-Design Performance Plot
+![Off-Design Carpet Plot](carpet_plot_offdesign.png)  
+*Relative operating line showing performance across different flight conditions.*
+
+### MATLAB Application Interface
+![MATLAB App](matlab_app.png)  
+*Interactive interface for calculating engine specifications and performance metrics.*
+
+ ---
+ 
 ## 🚀 **Technical Highlights**  
 
 ### ⚡ Advanced Aerospace Modeling
