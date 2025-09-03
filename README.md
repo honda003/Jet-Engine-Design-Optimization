@@ -72,14 +72,15 @@ This project was developed as an **Aerospace Engineering Capstone (Jan 2023)**, 
 ```mermaid
 graph TD;
     A[Start: Define Flight Conditions] --> B[Design Phase: Generate Carpet Plot];
-    B --> C[Select Optimal Point (Π_c, TIT)];
-    C --> D[Sensitivity Analysis: Vary Pressure & Temp];
-    D --> E[Calculate Engine Specs: Thrust, SFC, Efficiency];
+    B --> C["Select Optimal Point (Πc, TIT)"];
+    C --> D["Sensitivity Analysis: Vary Pressure & Temp"];
+    D --> E["Calculate Engine Specs: Thrust, SFC, Efficiency"];
     E --> F[Off-Design Phase: Fix Geometry];
-    F --> G[Iterate Conditions: Altitude, Mach, Tt4];
-    G --> H[Generate Operating Lines & Plots];
-    H --> I[Output: Thrust vs Altitude, SFC vs Thrust];
+    F --> G["Iterate Conditions: Altitude, Mach, Tt4"];
+    G --> H["Generate Operating Lines & Plots"];
+    H --> I["Output: Thrust vs Altitude, SFC vs Thrust"];
     I --> J[Optimize for Efficiency];
+
 ```
 
 ## 🌐 MATLAB Scripts & Usage
