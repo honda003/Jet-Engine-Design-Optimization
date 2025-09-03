@@ -71,14 +71,14 @@ This project was developed as an **Aerospace Engineering Capstone (Jan 2023)**, 
 
 ```mermaid
 graph TD;
-    A["Start: Define Flight Conditions"] --> B["Design Phase: Generate Carpet Plot"];
-    B --> C["Select Optimal Point (Πc&#44; TIT)"];
-    C --> D["Sensitivity Analysis: Vary Pressure &#38; Temp"];
-    D --> E["Calculate Engine Specs: Thrust&#44; SFC&#44; Efficiency"];
-    E --> F["Off-Design Phase: Fix Geometry"];
-    F --> G["Iterate Conditions: Altitude&#44; Mach&#44; Tt4"];
-    G --> H["Generate Operating Lines &#38; Plots"];
-    H --> I["Output: Thrust vs Altitude&#44; SFC vs Thrust"];
+    A["Start:<br/>Define Flight Conditions"] --> B["Design Phase:<br/>Generate Carpet Plot"];
+    B --> C["Select Optimal Point<br/>(Πc, TIT)"];
+    C --> D["Sensitivity Analysis:<br/>Vary Pressure & Temp"];
+    D --> E["Calculate Engine Specs:<br/>Thrust, SFC, Efficiency"];
+    E --> F["Off-Design Phase:<br/>Fix Geometry"];
+    F --> G["Iterate Conditions:<br/>Altitude, Mach, Tt4"];
+    G --> H["Generate Operating Lines<br/>& Plots"];
+    H --> I["Output:<br/>Thrust vs Altitude, SFC vs Thrust"];
     I --> J["Optimize for Efficiency"];
 
 ```
